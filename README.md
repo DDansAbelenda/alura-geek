@@ -1,4 +1,4 @@
-# Alura_Geek
+# Alura Geek
 Este proyecto es una aplicación web desarrollada como parte del desafío del curso de Front End de Alura Latam. El objetivo del desafío es medir las habilidades en HTML, CSS y JavaScript a través del desarrollo de una aplicación que permita listar, registrar y eliminar productos. Además, se utiliza JSON-Server para crear una API y desplegarla en Vercel.
 
 ## Funcionalidades
