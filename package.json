@@ -1,0 +1,16 @@
+{
+  "name": "alura-geek",
+  "version": "1.0.0",
+  "description": "Challenge Alura Latam sobre el trabajo con JSON Server y la creación de una fake API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniel Dans Abelenda",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^1.0.0-beta.1"
+  }
+}
