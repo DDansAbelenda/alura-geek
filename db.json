@@ -7,12 +7,6 @@
       "imagen": "assets/products/zapatillas-rojas-nike.jpg"
     },
     {
-      "id": "4ce7",
-      "nombre": "Zapatillas grises",
-      "precio": "500",
-      "imagen": "assets\\products\\zapatillas-grises.jpg"
-    },
-    {
       "id": "7a6e",
       "nombre": "Reloj Digital Blanco",
       "precio": "150",

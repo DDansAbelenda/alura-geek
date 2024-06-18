@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/form-add-product-style.css">
     <link rel="stylesheet" href="css/products-list-style.css">
+    <link rel="stylesheet" href="css/confirmation-modal-style.css">
 </head>
 
 <body>
@@ -48,9 +49,25 @@
             </div>
         </section>
     </main>
+
+    <!-- Pie de página -->
     <footer class="footer-section">
         <h4>Desarrollado por Daniel Dans Abelenda | Alura Latam - 2024</h4>
     </footer>
+
+    <!-- Modal de confirmación -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Confirmar eliminación</h2>
+            <p>¿Estás seguro de que deseas eliminar este producto?</p>
+            <div class="modal-buttons">
+                <button id="confirmDelete" class="buttons delete-button">Eliminar</button>
+                <button id="cancelDelete" class="buttons cancel-button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
     <script src="js/main.js" type="module"></script>
 </body>
 

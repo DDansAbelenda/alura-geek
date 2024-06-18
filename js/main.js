@@ -1,5 +1,5 @@
 import { servicesProducts } from "./product-services.js";
-
+import { confirmation } from "./confirmation.js";
 // Obtener los contenedores de datos
 const productContainer = document.querySelector("[product-list]"); // Contenedor de los productos
 const form = document.querySelector("[data-form]"); // Formulario para agregar nuevos productos
@@ -28,11 +28,7 @@ function createCard(nombre, precio, imagen, id) {
     // Añadir evento para eliminar producto
     const deleteButton = card.querySelector(".trash-button");
     deleteButton.addEventListener("click", () => {
-        servicesProducts.deleteProduct(id)
-            .then(() => {
-                card.remove(); // Elimina la tarjeta del DOM
-            })
-            .catch(err => console.log(err));
+        confirmation.openModal({ card, id });
     });
 
     productContainer.appendChild(card); // Añade la tarjeta al contenedor de productos

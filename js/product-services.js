@@ -1,6 +1,6 @@
 // URL de la API desplegada en Vercel o localmente
-//const apiUrl = "http://localhost:3000/productos";
-const apiUrl = "https://challenge-one-alura-geek-fake-api.vercel.app/productos";
+const apiUrl = "http://localhost:3000/productos";
+//const apiUrl = "https://challenge-one-alura-geek-fake-api.vercel.app/productos";
 
 // Funciones de la página web
 
